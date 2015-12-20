@@ -57,7 +57,7 @@ Node * CreatLb(int large)
 void PrintLb(Node * head)
 {
 	Node * curr;
-	curr = head;
+	curr = head -> next;
 	while(curr != NULL)
 	{
 		printf("%d\n",curr -> data );
